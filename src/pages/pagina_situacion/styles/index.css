@@ -1,0 +1,175 @@
+/*NavBar*/
+.nav-bar{
+    background: rgb(34, 177, 76, 0.8);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: first baseline;
+    margin: 0;
+    padding: 0;
+}
+
+.flecha{
+    list-style: none;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 0.5%;
+}
+
+.flecha a{
+    font-family: 'Black Han Sans', sans-serif;
+    text-decoration: none;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.flecha a:hover{
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+    transition: all 1s;
+}
+
+.nav-items{
+    font-family: 'Black Han Sans', sans-serif;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    margin: 2.5%;
+    padding: 2.5%;
+}
+
+.info-titulo{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: safe;
+    align-items: flex-end;
+}
+
+
+.nav-items a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.nav-items a:hover{
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-size: 29px;
+    transition: all 2s;
+}
+
+/*Informacion*/
+.espacio{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255);
+    width: 100%;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: rgb(0, 0, 0);
+}
+
+.carousel-inner{
+    width: 90%;
+    height: 600px;
+}
+
+.d-block{
+    width: 90%;
+    height: 550px;
+}
+
+.info{
+    padding: 12%;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    border: rgb(0, 0, 0);
+}
+
+/*Contacto*/
+.footer{
+    background: rgb(34, 177, 76, 0.8);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-items{
+    font-family: 'Black Han Sans', sans-serif;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    margin: 2.5%;
+    padding: 2.5%;
+}
+
+.face{
+    width: 50px;
+    height: 50px;
+}
+
+.face:hover{
+    width: 55px;
+    height: 55px;
+    transition: all 0.5s;
+}
+
+.ins{
+    width: 50px;
+    height: 50px;
+}
+
+.ins:hover{
+    width: 55px;
+    height: 55px;
+    transition: all 0.5s;
+}
+
+.email{
+    width: 50px;
+    height: 50px;
+}
+
+.email:hover{
+    width: 55px;
+    height: 55px;
+    transition: all 0.5s;
+}
+
+.info3{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    animation: bounce1 .9s alternate infinite ease-in;
+}
+
+@keyframes bounce1{
+    0%{
+        transform: translateX(-40%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
